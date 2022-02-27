@@ -1,0 +1,19 @@
+{
+  "name": "campobassojs.com",
+  "version": "1.0.0",
+  "description": "Web site for campobassojs.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CampobassoJS/campobassojs.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CampobassoJS/campobassojs.com/issues"
+  },
+  "homepage": "https://github.com/CampobassoJS/campobassojs.com#readme"
+}
