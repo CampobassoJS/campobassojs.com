@@ -1,19 +1,20 @@
 {
   "name": "campobassojs.com",
-  "version": "1.0.0",
-  "description": "Web site for campobassojs.com",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CampobassoJS/campobassojs.com.git"
+  "dependencies": {
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CampobassoJS/campobassojs.com/issues"
-  },
-  "homepage": "https://github.com/CampobassoJS/campobassojs.com#readme"
+  "devDependencies": {
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0"
+  }
 }
